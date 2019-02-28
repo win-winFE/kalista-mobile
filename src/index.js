@@ -11,8 +11,6 @@ require('./favicon.ico');
 
 const store = configureStore();
 
-console.log(store);
-
 render(
   <AppContainer>
     <Root store={store} history={history} />
